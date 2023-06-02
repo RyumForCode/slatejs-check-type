@@ -1,6 +1,6 @@
 import CryptoJS from 'crypto-js';
 import { ClipboardEventHandler, useState } from 'react';
-import { Element, createEditor } from 'slate';
+import { createEditor } from 'slate';
 import { withHistory } from 'slate-history';
 import { Editable, Slate, withReact } from 'slate-react';
 
