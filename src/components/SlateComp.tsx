@@ -11,7 +11,9 @@ const SlateComp = () => {
     {
       type: 'paragraph',
       children: [
-        { text: 'Paste anything. I will check the clipboard for you!' },
+        {
+          text: 'Paste here anything. I will check the clipboard for you!\n\n(It shows up to developer console tab!)',
+        },
       ],
     },
   ];
